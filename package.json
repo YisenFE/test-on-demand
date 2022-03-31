@@ -1,0 +1,15 @@
+{
+  "name": "on-demand",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "packageManager": "yarn@3.2.0",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build:pkg": "yarn workspace pkg build",
+    "build:project": "yarn workspace project build",
+    "build": "yarn build:pkg && yarn build:project"
+  }
+}
