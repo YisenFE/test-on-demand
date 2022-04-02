@@ -1,7 +1,7 @@
-# 简单测试按需加载
+# 简单测试按需加载（Tree Shaking）
 
-```
-$ yarn
+```bash
+$ yarn # 安装依赖
 
-$ yarn build
+$ yarn build # 编译并自动打开浏览器
 ```

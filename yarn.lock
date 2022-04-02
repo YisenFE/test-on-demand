@@ -684,9 +684,9 @@ __metadata:
   linkType: hard
 
 "caniuse-lite@npm:^1.0.30001317":
-  version: 1.0.30001323
-  resolution: "caniuse-lite@npm:1.0.30001323"
-  checksum: 053cffe1f33ef7c97ce5a1111f17ec4872ce50f152cb0b787fddc748afa98e442a885acbfdf6c39c59b5af4e9d338e288ce2901eea150e64389d2d3b86248790
+  version: 1.0.30001324
+  resolution: "caniuse-lite@npm:1.0.30001324"
+  checksum: c48bc69d6a0f07f5907465481f313f35c55a6ebf066df233a91c8929a52cfaac380ffad63241ee1cd79a0c001e2af7644a759c10c1470a9c46d194913c81c5c3
   languageName: node
   linkType: hard
 
@@ -848,9 +848,9 @@ __metadata:
   linkType: hard
 
 "css-what@npm:^6.0.1":
-  version: 6.0.1
-  resolution: "css-what@npm:6.0.1"
-  checksum: d620866a85d19de5dac4e31e7856c8e80665c1ff23e3e241ccba23a2fd717c9e9cc08aec170447297cf2d0e13d74893320b08e3e8c8b5e783280a2ed50450eb6
+  version: 6.1.0
+  resolution: "css-what@npm:6.1.0"
+  checksum: b975e547e1e90b79625918f84e67db5d33d896e6de846c9b584094e529f0c63e2ab85ee33b9daffd05bff3a146a1916bec664e18bb76dd5f66cbff9fc13b2bbe
   languageName: node
   linkType: hard
 
@@ -2399,6 +2399,15 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"prettier@npm:2.6.1":
+  version: 2.6.1
+  resolution: "prettier@npm:2.6.1"
+  bin:
+    prettier: bin-prettier.js
+  checksum: 78be1f8a3ddfad7c3d8a854b6c8941a3bb1ddfca4225c38d778e0fe1029a55368f71b3bbefff82c689015fbb4d391ec44add957f01308ad2725e01a7c1f37cb6
+  languageName: node
+  linkType: hard
+
 "pretty-error@npm:^4.0.0":
   version: 4.0.0
   resolution: "pretty-error@npm:4.0.0"
@@ -2416,7 +2425,8 @@ __metadata:
     html-webpack-plugin: ^5.5.0
     open-cli: ^7.0.1
     pkg: "workspace:^"
-    webpack: ^5.70.0
+    prettier: 2.6.1
+    webpack: ^5.71.0
     webpack-cli: ^4.9.2
   languageName: unknown
   linkType: soft
@@ -3183,9 +3193,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"webpack@npm:^5.70.0":
-  version: 5.70.0
-  resolution: "webpack@npm:5.70.0"
+"webpack@npm:^5.71.0":
+  version: 5.71.0
+  resolution: "webpack@npm:5.71.0"
   dependencies:
     "@types/eslint-scope": ^3.7.3
     "@types/estree": ^0.0.51
@@ -3216,7 +3226,7 @@ __metadata:
       optional: true
   bin:
     webpack: bin/webpack.js
-  checksum: 00439884a9cdd5305aed3ce93735635785a15c5464a6d2cfce87e17727a07585de02420913e82aa85ddd2ae7322175d2cfda6ac0878a17f061cb605e6a7db57a
+  checksum: 84b273a15180d45dafe4fc4a3ccccba2f72210f327a1af39713b3ef78148768afb0e18fa0cddaea4af5dd54ace199fbbdfcef9aec8da7e9c248f8b1b7cc413e1
   languageName: node
   linkType: hard
 

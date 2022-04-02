@@ -4,9 +4,12 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
     mode: 'production',
     entry: {
-        cjs: './test-cjs.js',
-        esm: './test-esm.js',
-        umd: './test-umd.js'
+        commonjs_cjs: './src/commonjs-cjs.js',
+        commonjs_esm: './src/commonjs-esm.js',
+        commonjs_umd: './src/commonjs-umd.js',
+        esmodule_cjs: './src/esmodule-cjs.js',
+        esmodule_esm: './src/esmodule-esm.js',
+        esmodule_umd: './src/esmodule-umd.js',
     },
     output: {
         filename: '[name].js',
@@ -15,8 +18,7 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            title: '管理输出',
-            template: 'index.html'
+            title: 'test-on-demand',
         })
     ]
 };
